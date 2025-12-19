@@ -1,0 +1,43 @@
+Host (IP ou domaine) :
+154.73.23.105
+
+
+Port :
+
+22
+
+
+Username :
+
+vpnuser
+
+
+Password :
+
+vpnpass123
+
+
+Payload (méthode GET – HTTP Injector / HTTP Custom / SSH Custom) :
+
+GET / HTTP/1.1
+Host: 154.73.23.105
+Connection: Keep-Alive
+User-Agent: Mozilla/5.0
+
+
+SNI (si SSL activé) :
+
+cdn.whatsapp.net
+
+
+*DNS personnalisé (facultatif) :*
+
+1.1.1.1, 8.8.8.8
+
+
+Public Key (si exigé dans l’app - facultatif) :
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDgEXEMPLECLEY123...
+
+
+---
